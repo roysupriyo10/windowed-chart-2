@@ -15,7 +15,7 @@ const ChartLegend: Component<ChartLegendProps> = props => {
         top-2
         left-3
         z-10
-        w-full
+        w-[90%]
         pr-24
         flex
         items-center

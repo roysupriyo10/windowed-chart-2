@@ -14,7 +14,7 @@ import ChartLegend from "./ChartLegend";
 
 interface ChartProps {
   globalState: GlobalState;
-  setGlobalState: SetStoreFunction<GlobalState>
+  setGlobalState: SetStoreFunction<GlobalState>;
 }
 
 const Chart: Component<ChartProps> = props => {
@@ -140,7 +140,7 @@ const Chart: Component<ChartProps> = props => {
   return (
     <div
       ref={chartContainer}
-      class="relative h-[100vh] w-[100vw]"
+      class="relative h-full"
     >
       <ChartLegend globalState={props.globalState} />
     </div>

@@ -22,6 +22,8 @@ export interface Legend {
 
 export type RESOLUTION = '1m' | '3m' | '5m' | '15m' | '30m' | '1h' | '2h' | '4h' | '6h' | '8h' | '12h' | '1d';
 
+export const SUPPORTED_RESOLUTIONS: RESOLUTION[] = ['1m' , '3m' , '5m' , '15m' , '30m' , '1h' , '2h' , '4h' , '6h' , '8h' , '12h' , '1d']
+
 export interface GlobalState {
   ohlcWebSocket: ReconnectingWebSocket | null;
   candlesFetched: number;

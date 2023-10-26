@@ -4,6 +4,6 @@
 
 @layer components {
   #root {
-    @apply h-[100vh]
+    @apply h-[100vh] text-white bg-main
   }
 }
